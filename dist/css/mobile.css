@@ -1,0 +1,67 @@
+#navbar{
+    flex-direction: column;
+    padding: 0;
+}
+
+#navbar h1{
+    text-align: center;
+    background-color: #222;
+    margin: 0;
+    padding: 0.75rem;
+}
+
+#navbar ul{
+    padding: 0.25rem;
+    justify-content: space-evenly;
+}
+
+#showcase .showcase-content{
+    top: 99px;
+    padding: 4rem 1rem;
+    justify-content: space-around;
+}
+#showcase .showcase-content p{
+    display: none;
+}
+
+#about .container{
+    flex-direction: column-reverse;
+}
+
+#about .about-img{
+    margin: 1rem 0;
+}
+
+#menu .items .item{
+    flex-direction: column-reverse;
+    min-width: 320px;
+    padding: 1rem;
+    box-shadow: none;
+}
+
+#menu .items .item .info{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#menu .items .item .photo img{
+    display: block;
+    margin: auto;
+}
+
+footer{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#menu-showcase .showcase-content{
+    padding: 4rem 2rem;
+}
+
+#location .items{
+    flex-direction: column;
+}
+
+#location .items .box{
+    margin: 1.5rem 1rem;
+}
